@@ -10,11 +10,11 @@ echo "(Mensagem exemplo)<br /><br />";
 echo "<hr /><br /><br />";
 
 echo "Bem vindo <strong>". $_SESSION['nome'] ." ". $_SESSION['sobrenome'] ."</strong>! <br />
-	Você est&aacute; acessando &aacute;rea restrita para usu&aacute;rios cadastrados!<br /><br />";
+	Vocï¿½ est&aacute; acessando &aacute;rea restrita para usu&aacute;rios cadastrados!<br /><br />";
 
 echo "Seu n&iacute;vel de usu&aacute;rio &eacute; <strong>". $_SESSION['nivel_usuario']."</strong>.<br />
 Com esse n&iacute;vel, voc&ecirc; tem permis&atilde;o de acesso &agrave; algumas &aacute;reas exclusivas do site.<br /><br />";
-
+//teste
 /*if($_SESSION['nivel_usuario'] == 0){
 
 	echo "- <strong>SITE</strong><br /> - Acesso &agrave; &aacute;reas exclusivas do site<br />";
